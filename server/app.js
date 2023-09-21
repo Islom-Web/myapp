@@ -13,14 +13,6 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.use(
-  cors({
-    origin: ["https://deploy-itransition-1whq.vercel.app"],
-    methods: ["POST", "GET"],
-    credentials: true
-  })
-);
-
 app.use("/uploads/images", express.static(path.join("uploads", "images")));
 
 app.use((req, res, next) => {
