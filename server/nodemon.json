@@ -1,0 +1,8 @@
+{
+	"env": {
+		"DB_USER": "user",
+		"DB_PASSWORD": "user123",
+		"DB_NAME": "itransition-prod",
+		"JWT_KEY": "supersecret_dont_share"
+	}
+}
